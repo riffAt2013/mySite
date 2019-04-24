@@ -11,7 +11,8 @@ nav li{
 }
 
 nav li:hover{
-	border: 2px dashed red;
+	border: 2px dashed #D09462;
+	border-radius: 10px;
 }
 
 nav a{
@@ -71,6 +72,7 @@ with specific unicode helps that*/
 
 #b a{
 	text-decoration: none;
+	color:inherit;
 }
 
 #b a:hover{
