@@ -6,8 +6,22 @@ body{
 nav li{
 	list-style: none;
 	display: inline-block;
-	margin: 20px 150px;
+	margin: 20px 100px;
 	padding: 5px;
+}
+
+ul img{
+	float: right;
+	transition-duration: 0.4s;	
+}
+
+ul img:hover{
+	transform: scale(1.1);
+}
+
+ul p{
+	text-align: right;
+	font-size: 14px;
 }
 
 nav li:hover{
